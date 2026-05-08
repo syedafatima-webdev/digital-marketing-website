@@ -1,0 +1,192 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+.callus{
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    color: light;
+}
+.bannerContent h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+.bannerContent h1 span{
+    color: #2699FB;
+}
+.bannerContent p{
+    font-size: 22px;
+}
+.bannerContent ul{
+    list-style: none;
+}
+.bannerContent ul li{
+    font-size: 22px;
+}
+.bannerContent ul li i{
+    color: #2699FB;
+}
+.bannerContentbtn button{
+    width: 50%;
+    border: none;
+}
+.bannerContentbtn button:first-child{
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+.bannerContentbtn button:nth-child(2){
+    border: 2px solid #2699FB;
+    background-color: white;
+    color: #2699FB;
+}
+.bannerform{
+    padding: 40px;
+}
+.bannerform h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.bannerform button{
+    width: 100%;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    color: white;
+    border: none;
+}
+.countersection h2{
+    color: #2699FB;
+    font-weight: bold;
+    font-size: 35px;
+}
+.highlight-section{
+    background-color: #F7FAFF;
+}
+.highlight-section h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.highlight-section p{
+    font-size: 18px;
+}
+.highlight h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.highlightbtn{
+    padding: 12px 25px;
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.careergrid h2{
+    font-weight: bold;
+}
+.gridstyle{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+}
+.griditem h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.griditem p{
+    font-size: 15px;
+}
+.curriculumlist ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.curriculumlist ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+.curriculumlist ul li i{
+    color: #2699FB;
+}
+.curriculumbtn{
+    padding: 12px 25px;
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.hero-section {
+    position: relative;
+    min-height: 300px;
+    padding: 80px 0;
+
+    /* Gradient background */
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+
+    overflow: hidden;
+}
+
+/* Side white lines */
+.hero-section::before,
+.hero-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 100%;
+
+    background: repeating-linear-gradient(
+        to right,
+        rgba(12, 64, 136, 0.2),
+        rgba(65, 139, 214, 0.2) 2px,
+        transparent 2px,
+        transparent 10px
+    );
+
+    z-index: 1;
+}
+
+/* Left side */
+.hero-section::before {
+    left: 0;
+}
+
+/* Right side */
+.hero-section::after {
+    right: 0;
+}
+
+/* Keep content above lines */
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+.btn-light{
+padding: 12px 25px;
+    background: white;
+    color: black;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.cardpic h2{
+    font-size: 20px;
+    font-weight: 500px;
+}
+.personhold{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+footer {
+    background: linear-gradient(135deg, #439eee, #09cdd7);
+    color: white;
+}
